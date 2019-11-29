@@ -10,4 +10,4 @@ Jenkinsfile to build said docker image and push it to dockerhub (it's available 
 
 ## Run
 
-`docker run --name tekkit-lite-server -v tekkit-lite:/data -d -p 25565:25565 obje/tekkit-lite-docker`
+`docker run --name tekkit-lite-server -v tekkit-lite:/usr/server/world -d -p 25565:25565 obje/tekkit-lite-docker`
